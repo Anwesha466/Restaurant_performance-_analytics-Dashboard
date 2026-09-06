@@ -84,7 +84,6 @@ df.to_sql("restaurants", con=engine, if_exists="replace", index=False)
 - Connected Power BI to MySQL via MySQL Connector/NET
 - Built data model with relationships between `restaurant_cleaned` and `cuisine_exploded`
 - Created DAX measures:
-  - `Rating Rank` using `RANKX` for top restaurant ranking
   - `Rating Band` for distribution analysis
   - `Performance Flag` to identify underperforming restaurants
   - `Restaurant Label` combining name + area for unique identification
@@ -163,4 +162,4 @@ Targeting Data Analyst roles | Excel • Python • SQL • Power BI
 
 ---
 
-*Dataset sourced from Kaggle — publicly available restaurant listings.*
+*Dataset sourced from Kaggle — publicly available swiggy restaurant listings.*
